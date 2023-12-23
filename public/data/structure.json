@@ -1,0 +1,383 @@
+{
+  "header": {
+    "menus": {
+      "primary": [
+        {
+          "__typename": "MenuItem",
+          "databaseId": 139,
+          "uri": "/library",
+          "label": "ספריה",
+          "order": 1
+        },
+        {
+          "__typename": "MenuItem",
+          "databaseId": 140,
+          "uri": "/page",
+          "label": "דף",
+          "order": 2
+        },
+        {
+          "__typename": "MenuItem",
+          "databaseId": 141,
+          "uri": "/sample-page-2/",
+          "label": "קישור שלישי",
+          "order": 3
+        },
+        {
+          "__typename": "MenuItem",
+          "databaseId": 198,
+          "uri": "/sample-page/",
+          "label": "עמוד לדוגמא",
+          "order": 4
+        },
+        {
+          "__typename": "MenuItem",
+          "databaseId": 199,
+          "uri": "/sample-page-2/",
+          "label": "עמוד לדוגמא",
+          "order": 5
+        }
+      ],
+      "secondary": [
+        {
+          "__typename": "MenuItem",
+          "databaseId": 139,
+          "uri": "/library",
+          "label": "ספריה",
+          "order": 1
+        },
+        {
+          "__typename": "MenuItem",
+          "databaseId": 140,
+          "uri": "/?post_type=articles&p=57",
+          "label": "קישור שני",
+          "order": 2
+        },
+        {
+          "__typename": "MenuItem",
+          "databaseId": 141,
+          "uri": "/sample-page-2/",
+          "label": "קישור שלישי",
+          "order": 3
+        },
+        {
+          "__typename": "MenuItem",
+          "databaseId": 198,
+          "uri": "/sample-page/",
+          "label": "עמוד לדוגמא",
+          "order": 4
+        },
+        {
+          "__typename": "MenuItem",
+          "databaseId": 199,
+          "uri": "/sample-page-2/",
+          "label": "עמוד לדוגמא",
+          "order": 5
+        }
+      ]
+    }
+  },
+  "blocks": {
+    "tutorials": {
+      "title": "title",
+      "data": [
+        {
+          "name": "המדריך להשלמת בגרויות",
+          "id": "14",
+          "count": 4,
+          "uri": "#",
+          "description": "ריכוז מידע לגבי השלמת בגרויות עבור מי שאין לו בגרות מלאה המדריך מתאים עבור כל אדם\r\nריכוז מידע לגבי השלמת בגרויות עבור מי שאין לו בגרות מלאה המדריך מתאים עבור כל אדם\r\n",
+          "icon": "fas fa-person-military-rifle",
+          "articles": [
+            {
+              "name": "יש לי בגרות, מה הלאה?",
+              "id": 222,
+              "uri": "http://127.0.0.1/wp/articles/%d7%99%d7%a9-%d7%9c%d7%99-%d7%91%d7%92%d7%a8%d7%95%d7%aa-%d7%9e%d7%94-%d7%94%d7%9c%d7%90%d7%94/",
+              "slug": "%d7%99%d7%a9-%d7%9c%d7%99-%d7%91%d7%92%d7%a8%d7%95%d7%aa-%d7%9e%d7%94-%d7%94%d7%9c%d7%90%d7%94"
+            },
+            {
+              "name": "מבנה בחינת הבגרות",
+              "id": 216,
+              "uri": "http://127.0.0.1/wp/articles/%d7%9e%d7%91%d7%a0%d7%94-%d7%91%d7%97%d7%99%d7%a0%d7%aa-%d7%94%d7%91%d7%92%d7%a8%d7%95%d7%aa/",
+              "slug": "%d7%9e%d7%91%d7%a0%d7%94-%d7%91%d7%97%d7%99%d7%a0%d7%aa-%d7%94%d7%91%d7%92%d7%a8%d7%95%d7%aa"
+            },
+            {
+              "name": "השוואת השלמת בגרויות עם פתרונות אחרים",
+              "id": 215,
+              "uri": "http://127.0.0.1/wp/articles/%d7%94%d7%a9%d7%95%d7%95%d7%90%d7%aa-%d7%94%d7%a9%d7%9c%d7%9e%d7%aa-%d7%91%d7%92%d7%a8%d7%95%d7%99%d7%95%d7%aa-%d7%a2%d7%9d-%d7%a4%d7%aa%d7%a8%d7%95%d7%a0%d7%95%d7%aa-%d7%90%d7%97%d7%a8%d7%99%d7%9d/",
+              "slug": "%d7%94%d7%a9%d7%95%d7%95%d7%90%d7%aa-%d7%94%d7%a9%d7%9c%d7%9e%d7%aa-%d7%91%d7%92%d7%a8%d7%95%d7%99%d7%95%d7%aa-%d7%a2%d7%9d-%d7%a4%d7%aa%d7%a8%d7%95%d7%a0%d7%95%d7%aa-%d7%90%d7%97%d7%a8%d7%99%d7%9d"
+            },
+            {
+              "name": "אז איך מתחילים? או &#8211; למה בגרות?",
+              "id": 214,
+              "uri": "http://127.0.0.1/wp/articles/%d7%90%d7%96-%d7%90%d7%99%d7%9a-%d7%9e%d7%aa%d7%97%d7%99%d7%9c%d7%99%d7%9d-%d7%90%d7%95-%d7%90%d7%95-%d7%9c%d7%9e%d7%94-%d7%91%d7%92%d7%a8%d7%95%d7%aa/",
+              "slug": "%d7%90%d7%96-%d7%90%d7%99%d7%9a-%d7%9e%d7%aa%d7%97%d7%99%d7%9c%d7%99%d7%9d-%d7%90%d7%95-%d7%90%d7%95-%d7%9c%d7%9e%d7%94-%d7%91%d7%92%d7%a8%d7%95%d7%aa"
+            }
+          ]
+        },
+        {
+          "name": "המדריך לאקדמיה",
+          "id": "15",
+          "count": 5,
+          "uri": "#",
+          "description": "הדרכה בנוגע להצטרפות להשכלה הגבוהה עבור סטודנטים בוגרי החינוך החרדי המדריך כולל שלבים שונים לבעלי ידע מוקדם ולחסרי ניסיון\r\n\r\n",
+          "icon": "fas fa-arrow-up-from-ground-water",
+          "articles": [
+            {
+              "name": "לימודים באוניברסיטה או לימודים במכללה? כל השיקולים",
+              "id": 224,
+              "uri": "http://127.0.0.1/wp/articles/%d7%9c%d7%99%d7%9e%d7%95%d7%93%d7%99%d7%9d-%d7%91%d7%90%d7%95%d7%a0%d7%99%d7%91%d7%a8%d7%a1%d7%99%d7%98%d7%94-%d7%90%d7%95-%d7%9c%d7%99%d7%9e%d7%95%d7%93%d7%99%d7%9d-%d7%91%d7%9e%d7%9b%d7%9c%d7%9c/",
+              "slug": "%d7%9c%d7%99%d7%9e%d7%95%d7%93%d7%99%d7%9d-%d7%91%d7%90%d7%95%d7%a0%d7%99%d7%91%d7%a8%d7%a1%d7%99%d7%98%d7%94-%d7%90%d7%95-%d7%9c%d7%99%d7%9e%d7%95%d7%93%d7%99%d7%9d-%d7%91%d7%9e%d7%9b%d7%9c%d7%9c"
+            },
+            {
+              "name": "איך עובדות בחינות הקבלה",
+              "id": 225,
+              "uri": "http://127.0.0.1/wp/articles/%d7%90%d7%99%d7%9a-%d7%a2%d7%95%d7%91%d7%93%d7%95%d7%aa-%d7%91%d7%97%d7%99%d7%a0%d7%95%d7%aa-%d7%94%d7%a7%d7%91%d7%9c%d7%94/",
+              "slug": "%d7%90%d7%99%d7%9a-%d7%a2%d7%95%d7%91%d7%93%d7%95%d7%aa-%d7%91%d7%97%d7%99%d7%a0%d7%95%d7%aa-%d7%94%d7%a7%d7%91%d7%9c%d7%94"
+            },
+            {
+              "name": "האם כל אחד יכול?",
+              "id": 226,
+              "uri": "http://127.0.0.1/wp/articles/%d7%94%d7%90%d7%9d-%d7%9b%d7%9c-%d7%90%d7%97%d7%93-%d7%99%d7%9b%d7%95%d7%9c/",
+              "slug": "%d7%94%d7%90%d7%9d-%d7%9b%d7%9c-%d7%90%d7%97%d7%93-%d7%99%d7%9b%d7%95%d7%9c"
+            },
+            {
+              "name": "מכינות קדם אקדמיות",
+              "id": 227,
+              "uri": "http://127.0.0.1/wp/articles/%d7%9e%d7%9b%d7%99%d7%a0%d7%95%d7%aa-%d7%a7%d7%93%d7%9d-%d7%90%d7%a7%d7%93%d7%9e%d7%99%d7%95%d7%aa/",
+              "slug": "%d7%9e%d7%9b%d7%99%d7%a0%d7%95%d7%aa-%d7%a7%d7%93%d7%9d-%d7%90%d7%a7%d7%93%d7%9e%d7%99%d7%95%d7%aa"
+            }
+          ]
+        }
+      ]
+    },
+    "welcome": {
+      "title": "ברוכים הבאים לאתר הפורום להשתלבות",
+      "data": "המדריך כולל מידע והדרכה אודות הליך ההרשמה והמוסדות השונים להשכלה גבוהה עבור בוגרי החינוך החרדי. המדריך נכתב על ידי בוגרים ממגוון רחב של מוסדות, ומתעדכן באופן שוטף על ידי הבוגרים.",
+      "image": "http://127.0.0.1/wp/wp-data/uploads/2023/12/student.svg",
+      "width": "14rem"
+    },
+    "reports": {
+      "data": [
+        {
+          "title": "דוח רבעוני: חינוך והשכלה",
+          "id": 13,
+          "isFeatured": true,
+          "subtitle": "יוצאים לשקיפות: בוגרי החינוך החרדי בשוק העבודה",
+          "description": "שיעור החרדים שמסיימים בגרות נמוך, מה המשמעות של זה? ומה ההשלכות של זה על כלכלת ישראל? ",
+          "image": "/covers/3.png",
+          "uri": "/",
+          "pdfUri": "/",
+          "tags": { "name": "system", "uri": "/" }
+        },
+        {
+          "title": "דפוסי השתלבות בחינוך הממלכתי חרדי",
+          "id": 14,
+          "subtitle": "דור בן צור ואריאל רובינשטיין",
+          "description": "סקירת דפוסי ההשתלבות של הממחים לפי שיעור הבוגרים בהשתלבות במערכת החינוך ",
+          "image": "/covers/1.png",
+          "uri": "/",
+          "pdfUri": "/",
+          "tags": { "name": "system", "uri": "/" }
+        },
+        {
+          "title": "השכלה גבוהה: תמונת מצב",
+          "id": 14,
+          "subtitle": "שניאור שפרינצין",
+          "description": "שיעור החרדים שמסיימים בגרות נמוך באופן מחריד, מה המשמעות של זה? ומה ההשלכות של זה על כלכלת ישראל? ",
+          "image": "/covers/2.png",
+          "uri": "/",
+          "pdfUri": "/",
+          "tags": { "name": "system", "uri": "/" }
+        }
+      ]
+    },
+    "infodata": {
+      "data": [
+        {
+          "title": "נשים חרדיות בהשכלה גבוהה גידול שנתי",
+          "subtitle": "גידול שנתי בכמות הסטודניות בוגרות החינוך החרדי על פי מגדר ותחום",
+          "description": "נתוני המלג משנת 2022",
+          "id": 0,
+          "summary": [
+            { "title": "שיעור הנשים החרדיות בהשכלה הגבוהה", "subtitle": "14%" },
+            {
+              "title": "מספר  הנשים החרדיות בהשכלה גבוהה",
+              "subtitle": "24,066"
+            },
+            { "title": "מדד השילוב", "subtitle": "0.5 " }
+          ],
+          "chart": {
+            "type": "Bar",
+            "labels": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022],
+            "series": [
+              {
+                "labels": "אוניברסיטאות",
+                "data": [1453, 2585, 3062, 7987, 3125, 3267, 3590, 4092, 4339],
+                "backgroundColor": "rgba(255, 99, 132, 0.5)"
+              },
+              {
+                "labels": "מכללות",
+                "data": [1523, 6281, 6633, 6687, 7198, 7582, 7580, 8509, 9365],
+                "backgroundColor": "rgba(53, 162, 235, 0.5)"
+              },
+              {
+                "labels": "סך הכל",
+                "data": [
+                  6976, 5866, 4795, 8674, 11323, 11849, 11170, 12701, 12704
+                ],
+                "backgroundColor": "rgba(53, 162, 235, 0.5)"
+              }
+            ]
+          }
+        },
+        {
+          "title": "מגמות גברים חרדים באקדמיה",
+          "subtitle": "2000-2023",
+          "description": "מספר הגברים החרדים באקדמיה מאז שנת 2000 עד 2023 על פי נתוני המלג",
+          "id": 1,
+          "summary": [
+            {
+              "title": "שיעור החרדים באוניברסיטה",
+              "subtitle": "הגברים החרדים הם 14% מכלל הסטודנטים להשכלה גבוהה"
+            },
+            {
+              "title": "מספר הסטודנטים החרדים בארץ",
+              "subtitle": "אוכלוסיית הסטודנטים החרדים בהשכלה הגבוהה עומדת על 15,966 בשנת 2022"
+            },
+            { "title": "מדד השילוב", "subtitle": "מדד השילוב הוא 0.5" }
+          ],
+          "chart": {
+            "type": "Bar",
+            "labels": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022],
+            "series": [
+              {
+                "labels": "מכללות",
+                "data": [2453, 2585, 3062, 2987, 3125, 3267, 3590, 4192, 4339],
+                "backgroundColor": "rgba(255, 99, 132, 0.5)"
+              },
+              {
+                "labels": "אוניברסיטאות",
+                "data": [5523, 6281, 6733, 6687, 7198, 7582, 7580, 8509, 9365],
+                "backgroundColor": "rgba(53, 162, 235, 0.5)"
+              },
+              {
+                "labels": "סך הכל",
+                "data": [
+                  7976, 8866, 9795, 9674, 10323, 10849, 11170, 12701, 13704
+                ],
+                "backgroundColor": "rgba(53, 162, 235, 0.5)"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+
+  "footer": {
+    "links": [
+      {
+        "databaseId": 230,
+        "uri": "http://Parent1",
+        "label": "קבוצה אחת",
+        "childItems": {
+          "nodes": [
+            {
+              "databaseId": 231,
+              "label": "Parent1_b",
+              "uri": "http://b"
+            },
+            {
+              "databaseId": 231,
+              "label": "Parent1_b",
+              "uri": "http://b"
+            },
+            {
+              "databaseId": 232,
+              "label": "Parent1_c",
+              "uri": "http://c"
+            }
+          ]
+        }
+      },
+      {
+        "databaseId": 230,
+        "uri": "/library",
+        "label": "ספריה",
+        "childItems": {
+          "nodes": [
+            {
+              "databaseId": 231,
+              "label": "Parent1_b",
+              "uri": "http://b"
+            },
+            {
+              "databaseId": 231,
+              "label": "Parent1_b",
+              "uri": "http://b"
+            },
+            {
+              "databaseId": 232,
+              "label": "Parent1_c",
+              "uri": "http://c"
+            }
+          ]
+        }
+      },
+      {
+        "databaseId": 231,
+        "uri": "http://b",
+        "label": "Parent1_b",
+        "childItems": {
+          "nodes": []
+        }
+      },
+      {
+        "databaseId": 232,
+        "uri": "http://c",
+        "label": "Parent1_c",
+        "childItems": {
+          "nodes": []
+        }
+      },
+      {
+        "databaseId": 233,
+        "uri": "http://Parent2",
+        "label": "Parent2",
+        "childItems": {
+          "nodes": [
+            {
+              "databaseId": 234,
+              "label": "Parent2_d",
+              "uri": "http://d"
+            },
+            {
+              "databaseId": 234,
+              "label": "Parent2_d",
+              "uri": "http://d"
+            },
+            {
+              "databaseId": 234,
+              "label": "Parent2_d",
+              "uri": "http://d"
+            },
+            {
+              "databaseId": 234,
+              "label": "Parent2_d",
+              "uri": "http://d"
+            }
+          ]
+        }
+      },
+      {
+        "databaseId": 234,
+        "uri": "http://d",
+        "label": "Parent2_d",
+        "childItems": {
+          "nodes": []
+        }
+      }
+    ]
+  }
+}
