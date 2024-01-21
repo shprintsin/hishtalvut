@@ -1,6 +1,6 @@
 // import { TutorialBlock } from '@/app/components/blocks/tutorial/TutorialBlock'
 import React from 'react'
-import getData from '@/app/utils/GetData'
+import getData from '@/app/utils/getData'
 import TutorialBlock from '@/app/components/blocks/tutorial/TutorialBlock'
 
 export default async function TutorialPage() {
