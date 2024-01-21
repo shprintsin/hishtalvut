@@ -1,0 +1,43 @@
+.container {
+    min-height:100vh;
+    padding: 2.25rem;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    /* background: #fff; */
+}
+
+
+.wrapper {
+    flex: 0 0 auto;
+    width: 100%; /* equivalent to md={11} in Bootstrap */
+}
+
+.title {
+    background-color: #1b436f;
+    padding: 0.5rem;
+    font-size: 2.2rem;
+    padding-left: 1rem;
+    width: fit-content;
+    color: white;
+    display: flex;
+    gap: 1rem;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    display: flex;
+    min-height:20rem ;
+    /* background-color: white; */
+}
+
+.Card {
+    height: auto;
+    background-color: #e5e7eb; /* equivalent to bg-gray-300 in Tailwind */
+    width: 45%; /* equivalent to w-5/12 in Tailwind */
+    align-items: stretch;
+    /* margin: 0 2.5rem;  */
+}

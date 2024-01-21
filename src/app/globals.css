@@ -1,7 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alef&family=Open+Sans&family=Rubik&family=Secular+One&display=swap');
 .article-count-body{display:inline;}
 .ArticleItemCategory a{color:#e53b83;}
 .ArticleItemCategory span{color:#000;}
@@ -74,3 +75,15 @@ body{background-color:#f5f5f5;}
 body{--bs-body-font-family:"heebo";}
 
 
+p,a,h1,h2,h3,h4,h5 {font-family: 'Heebo';}
+:root{
+    
+  --prime:#26426c;
+  --secondary:#5b7895;
+  --third:#26426c;
+  --deepblue:#212936;
+  --fprime:"Heebo", sans-serif;
+  --fsecondary:"Open Sans", sans-serif;
+  --fthird:"Secular One", sans-serif;
+
+}

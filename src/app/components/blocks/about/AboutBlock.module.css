@@ -1,0 +1,114 @@
+.container {
+    min-height: 100vh;
+    padding: 2.25rem 3.25rem 2.25rem 2.25rem;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    background-color: #f3f3f3;
+    
+}
+.wrapper {
+    flex: 0 0 auto;
+    width: 91.666667%; /* equivalent to md={11} in Bootstrap */
+}
+
+.title {
+    background-color: #1b436f;
+    padding: 0.5rem;
+    font-size: 2.2rem;
+    padding-left: 1rem;
+    width: fit-content;
+    color: white;
+    display: flex;
+    gap: 1rem;
+}
+
+.Row {
+    padding-top: 1.25rem;
+    /* padding-right: 1rem; */
+    /* display: flex; */
+    /* height: 100%; */
+    /* background-color: white; */
+}
+
+.Row > h3 {
+  font-family: "Open Sans";
+  font-size: 1.525rem;
+  font-weight: 500;
+  width: fit-content;
+  margin-right: 0rem;
+  margin-bottom: 2rem;
+  padding-left: 0.5rem;
+  border-bottom: #1b436f solid 1px;}
+
+.members {
+    display: flex;
+    gap: 7rem;
+    /* margin: 1rem; */
+    flex-wrap: wrap;
+  }
+  
+  .member {
+    width: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+.member img {
+    border: sandybrown solid 1px;
+    border-radius: 50%;
+    display: flex;
+    width: auto;
+    object-fit: cover;
+    flex-basis: 100%;
+
+}
+.member h2 {
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.member p {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.description {
+    font-size: 1rem;
+    text-align: right;
+}
+.member > .description {
+    margin-top: 1rem;
+    font-size: 1rem;
+
+}
+
+.box {
+    padding: 2rem;
+    padding-right: 3rem;
+    margin-top: 1rem;
+    /* background: #000; */
+    /* border: 2px solid  red; */
+    background: #e5e7eb;
+    /* min-height: 6rem; */
+  /* display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  align-content: center; */
+  /* background: #000; */
+  /* width: 60%; */
+  }
+
+  .box > .content {
+    /* display: flex;
+  font-size: 1.125rem;
+  color: white;
+  text-align: right;
+  line-height: 1.5;
+  row-gap: 3rem;
+padding: 1rem;  */
+}

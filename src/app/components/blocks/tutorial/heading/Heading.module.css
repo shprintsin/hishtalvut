@@ -1,0 +1,39 @@
+.wrapper {
+    color: white; /* equivalent to text-white in Tailwind */
+    font-size: 1.125rem; /* equivalent to text-lg in Tailwind */
+    padding: 0.75rem; 
+    
+    background-color: #3e4a62; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    color: white;
+    font-weight: bold;
+    font-size: 1.25rem; /* equivalent to text-xl in Tailwind */
+}
+
+.icon {
+    font-size: 4rem; /* equivalent to text-6xl in Tailwind */
+    margin-right: 0.625rem; /* equivalent to mr-2.5 in Tailwind */
+    display: inline-block; /* equivalent to inline-block in Tailwind */
+    margin: 0.5rem; /* equivalent to mx-2 in Tailwind */
+}
+
+.Link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    border: 1px solid #e5e7eb; /* equivalent to border-gray-200 in Tailwind */
+    color: white;
+    padding: 0.25rem; /* equivalent to p-1 in Tailwind */
+    transition: all 0.3s ease-in-out; /* equivalent to duration-300 ease-in-out in Tailwind */
+    font-size: 0.875rem; /* equivalent to text-sm in Tailwind */
+}
+
+.Link:hover {
+    background-color: #4b5563; /* equivalent to bg-gray-700 in Tailwind */
+    color: #d1d5db; /* equivalent to text-gray-300 in Tailwind */
+}
