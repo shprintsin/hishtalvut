@@ -6,6 +6,16 @@ import styles from "./layout/layout/Layout.module.css";
 import getData from "./utils/getData";
 
 
+export const viewport = {
+  width: '1280',
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: 'yes',
+  minimumWidth: '680',
+
+  // Also supported by less commonly used
+  // interactiveWidget: 'resizes-visual',
+}
 
 export default async function RootLayout({ children }) {
   const data = await getData("layout")
