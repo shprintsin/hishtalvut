@@ -1,12 +1,28 @@
-.alert{
+.alert {
     display: flex;
     width: 100%;
     height: 2rem;
     background: #cfdae5;
-    padding: 1rem;
+    padding: 2rem;
     justify-content: space-between;
     align-content: center;
     align-items: center;
     position: fixed;
     bottom: 0;
-}
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .alert {
+        display: flex;
+        width: 100%;
+        height: 2rem;
+        background: #cfdae5;
+        padding: 1rem;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+    }
+  }

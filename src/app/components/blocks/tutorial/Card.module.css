@@ -15,6 +15,7 @@
 }
 
 .title {
+    
     background-color: #1b436f;
     padding: 0.5rem;
     font-size: 2.2rem;
@@ -22,6 +23,10 @@
     width: fit-content;
     color: white;
     display: flex;
+    align-items: center;
+    align-content: center;
+font-weight: 500;
+
     gap: 1rem;
 }
 
@@ -40,4 +45,28 @@
     width: 45%; /* equivalent to w-5/12 in Tailwind */
     align-items: stretch;
     /* margin: 0 2.5rem;  */
+}
+@media screen and (max-width: 768px) {
+    .content {
+        padding-top: 2rem;
+        flex-direction: column;
+        margin-top: 0;
+        gap: 2rem;
+        justify-content: center;
+    }
+    .Card {
+        width: 100%;
+        margin: 0;
+    }
+
+    .container {
+        min-height:100vh;
+        padding: 1rem;
+        margin: 0;
+        width: 100%;
+        display: flex;
+justify-content: center;
+        /* background: #fff; */
+    }
+    
 }

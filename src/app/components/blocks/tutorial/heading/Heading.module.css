@@ -5,10 +5,15 @@
     
     background-color: #3e4a62; 
     display: flex;
+;
     justify-content: space-between;
 }
 
 .title {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
     color: white;
     font-weight: bold;
     font-size: 1.25rem; /* equivalent to text-xl in Tailwind */

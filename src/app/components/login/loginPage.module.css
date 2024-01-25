@@ -1,0 +1,142 @@
+.container {
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+}
+.content {
+    
+display: flex;
+flex-direction: column;
+gap: 50px;
+
+    justify-content: center;
+}
+
+.wrapper {
+    background-color: #e5e7eb;
+    padding: 3rem;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-display: none;
+    gap: 50px ;
+    /* border-radius: 10px; */
+}
+
+.socialButton{
+    padding: 30px;
+    background-repeat: 5px;
+    border: none;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    gap:1rem;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.socialButton:first-child{
+    background-color: #ff5555;
+}
+
+.socialButton:nth-child(2){
+background: #000;
+}
+.socialButton:nth-child(3){
+    background: #087bea;
+}
+
+
+
+
+.Row {
+    /* padding-top: 1.25rem; */
+    /* padding-right: 1rem; */
+    /* display: flex; */
+    /* height: 100%; */
+    /* background-color: white; */
+}
+
+.Row > h3 {
+  font-family: "Open Sans";
+  font-size: 1.525rem;
+  font-weight: 500;
+  width: fit-content;
+  margin-right: 0rem;
+  margin-bottom: 2rem;
+  padding-left: 0.5rem;
+  border-bottom: #1b436f solid 1px;}
+
+.members {
+    display: flex;
+    gap: 7rem;
+    /* margin: 1rem; */
+    flex-wrap: wrap;
+  }
+  
+  .member {
+    width: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+.member img {
+    border: sandybrown solid 1px;
+    border-radius: 50%;
+    display: flex;
+    width: auto;
+    object-fit: cover;
+    flex-basis: 100%;
+
+}
+.member h2 {
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.member p {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.description {
+    font-size: 1rem;
+    text-align: right;
+}
+.member > .description {
+    /* margin-top: 1rem;
+     */
+    font-size: 1rem;
+
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 2rem;
+    padding-right: 3rem;
+    /* margin-top: 1rem; */
+    /* background: #000; */
+    /* border: 1px solid  gray; */
+    
+    border-radius: 1%;
+    /* background: lightgray; */
+    /* min-height: 6rem; */
+  /* display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  align-content: center; */
+  /* background: #000; */
+  width: 55%;
+  }

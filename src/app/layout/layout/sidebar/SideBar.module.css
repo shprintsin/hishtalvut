@@ -4,6 +4,7 @@
     flex-direction: column;
     gap: 10px;
     padding-top: 2rem;
+    
 }
 
 .link {
@@ -30,3 +31,15 @@
     color: #ffffff;
 }
 
+
+@media screen and (max-width: 768px)
+{
+    .wrapper{
+       display: flex;
+       flex-wrap: wrap;
+         flex-direction: row;
+         background: #000;
+    }
+
+    
+}

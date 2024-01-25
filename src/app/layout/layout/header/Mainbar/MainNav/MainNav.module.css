@@ -3,7 +3,8 @@ margin: 0;
 padding: 0;
 width: 100%;
 display: flex;
-border-bottom: 2px solid white;
+justify-content: space-around;
+/* border-bottom: 2px solid white; */
 }
 
 .logo {
@@ -60,3 +61,5 @@ font-weight: 500;
 justify-content: flex-end;
 
 }
+
+

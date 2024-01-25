@@ -52,3 +52,88 @@ padding: 0;
     bottom: 0;
 }
 
+
+    
+    .logo {
+        display: flex;
+        flex-basis: 20%;
+        justify-content: center;
+        padding-bottom: 10px;
+        border-left: 1px solid white;
+        background: var(--deepblue);
+        justify-content: center;
+        padding-top: 10px;
+    
+    }
+    .navigation {
+        display: flex;
+        width: 100%;
+    flex-basis: 60%;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    }
+    
+    .navLink{
+        font-size:20px;
+        font-weight:400;
+        text-decoration: none;
+        padding: 10px;  
+        color: white;
+            box-shadow:0 0 1px #0000;display:inline-block;overflow:hidden;position:relative;transform:perspective(1px) translateZ(0);vertical-align:middle;
+    }
+    .navLink:active:before,
+    .navLink:focus:before,
+    .navLink:hover:before{left:0;right:0;}
+    .navLink:before{background:#2098d1;bottom:0;content:"";height:4px;left:51%;position:absolute;right:51%;transition-duration:.3s;transition-property:left,right;transition-timing-function:ease-out;z-index:-1;}
+    
+    .login {
+    display: flex;
+    flex-basis: 20%;
+    gap: 10px;
+    }
+    
+    .login span {
+        padding: 5px;
+    }
+    .loginLink {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    transition: background-color 300ms ease-in-out;
+    font-size: 1.125rem;
+    font-weight: 500;
+    justify-content: flex-end;
+    
+    }
+    
+    
+    @media screen and (max-width: 768px)
+    {
+        .logo {
+            display: flex;
+            flex-basis: 40%;
+            justify-content: center;
+            padding-bottom: 10px;
+            border-left: 1px solid white;
+            background: var(--deepblue);
+            justify-content: center;
+            padding-top: 10px;
+        
+        }
+        /* .container{justify-content: center;} */
+    .logo{
+        justify-self: center;
+        border:none;
+    }
+        /* .navigation {
+            display:none ;
+        }
+        .loginLink{
+            display: none;
+        } */
+        
+    }
+    

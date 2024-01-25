@@ -13,8 +13,8 @@ function Title({ children }) {
   return <h1 className={styles.title}>{children}</h1>;
 }
 
-function Content({ children }) {
-  return <div className={styles.content}>{children}</div>;
+function Content({ children,className }) {
+  return <div className={`${styles.content} ${className}`}>{children}</div>;
 }
 
 Block.Title = Title;

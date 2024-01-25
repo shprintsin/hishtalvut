@@ -112,3 +112,104 @@
   row-gap: 3rem;
 padding: 1rem;  */
 }
+
+@media screen and (max-width: 768px) {
+  .container {padding:0rem;
+  background-color: #e5e7eb;
+  }
+  .wrapper {
+    flex: 0 0 auto;
+    width: 100%; /* equivalent to md={11} in Bootstrap */
+}
+
+    .members {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin: 1rem;
+      }
+      
+      .member {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+      }
+      
+      .member img {
+        border: sandybrown solid 1px;
+        border-radius: 50%;
+        display: flex;
+        width: auto;
+        object-fit: cover;
+        flex-basis: 100%;
+      
+      }
+      .member h2 {
+        font-size: 1.125rem;
+        font-weight: 600;
+      }
+      
+      .member p {
+        font-size: 1rem;
+        font-weight: 300;
+      }
+      
+      .description {
+        font-size: 1rem;
+        text-align: right;
+      }
+      .member > .description {
+        margin-top: 1rem;
+        font-size: 1rem;
+      
+      }
+      
+      .box {
+        padding: 2rem;
+        margin-top: 0rem;
+    
+        background: #e5e7eb;
+
+      }
+      
+      .box > .content {
+        /* display: flex;
+      font-size: 1.125rem;
+      color: white;
+      text-align: right;
+      line-height: 1.5;
+      row-gap: 3rem;
+    padding: 1rem;  */
+      }
+      
+      .Row {
+        padding-top: 1.25rem;
+        /* padding-right: 1rem; */
+        /* display: flex; */
+        /* height: 100%; */
+        /* background-color: white; */
+      }
+      .title {
+        background-color: #1b436f;
+        margin: 2rem;
+        margin-bottom: 0;
+        font-size: 1.5rem;
+        padding-left: 1rem;
+        justify-self: center;
+        width: fit-content;
+        color: white;
+        display: flex;
+    }
+      .Row > h3 {
+        font-family: "Open Sans";
+        font-size: 1.525rem;
+        font-weight: 500;
+        width: fit-content;
+        margin-right: 0rem;
+      }
+}

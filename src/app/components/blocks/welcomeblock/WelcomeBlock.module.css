@@ -1,28 +1,50 @@
 .container {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: row;
-justify-content: center;
-align-content: center;
-align-items: center;
-padding: 3rem;
-padding-top: 0;
-    background: var(--prime);}
+  display: flex;
+  min-height: 100vh;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding-top: 0;
+  background: var(--prime);
+}
 
-.wrapper{
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 70%;
+  padding: 3rem;
+
+  align-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .container {
+      flex-direction: column;
+  }
+  .wrapper {
     display: flex;
     flex-direction: column;
-    flex-basis: 70%;
+    flex-basis: 100%;
+    padding: 1rem;
+    gap: 2rem;
+
     align-content: center;
     align-items: center;
-    gap: 2rem;
+    /* gap: 2rem; */
+  }
+
 }
+
 .heading {
     display: flex;
 justify-content: center;
 }
 .heading h2 {
-    font-size: 5.5rem;
+  font-size: clamp(2.5vw, 5.5vw, 6.5rem); /* Adjust these values as needed */
   color: white;
   font-family: "Secular One";
   font-weight: medium;
@@ -60,24 +82,36 @@ padding: 1rem;
 .links {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 10px;
-
-  /* justify-content: space-between; */
 }
 
 .links a {
   color: #fff;
-  /* border-bottom: #f2f8fe solid 1px; */
-  padding-right: 10px;
-  padding-left: 10px;
-  padding: 10px;
 }
+
 .links h2 {
   gap: 10px;
   font-size: 1rem;
   align-items: center;
   display: flex;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+        align-items: center;
+    /* gap: 1rem; */
+  }
+
+  .links h2 {
+    gap: 5px;
+
+    font-size: 0.8rem; /* Adjust this value as needed */
+  }
 }
 
 .search {
