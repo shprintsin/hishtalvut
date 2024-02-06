@@ -7,24 +7,15 @@ export default function TutorialBlock({data}) {
   return (
     <>
    <div className={styles.container}>
-        <div className={styles.wrapper}>
+        <div className={`${styles.wrapper} flex flex-col gap-5`}>
             <h1 className={styles.title}>
                 <FaGraduationCap className={styles.icon} />
                 המדריך להשכלה
             </h1>
-            <div className={styles.content}>
-                {/* {JSON.stringify(data.content)} */}
-                
-                {data.content.map((tutorial, index) => {
-                    return (
-                    <>
-                        <TutorialCard
-                            className={styles.Card}
-                            key={index}
-                            tutorial={tutorial}
-                        />
-                    </>
-                    );
+            <div className={"flex flex-col align-middle items-center sm:flex-row w-11/12 gap-4  justify-between "}>
+                {data.map((tutorial, index) => {
+                    return (<div className="flex w-full sm:w-5/12 bg-[#e5e7eb]">
+                        <TutorialCard data={tutorial} key={index} /></div>);
                 })}
             </div>
         </div>

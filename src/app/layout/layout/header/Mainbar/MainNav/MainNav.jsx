@@ -5,7 +5,14 @@ import React from 'react'
 import Image from 'next/image';
 import { IoMdMenu } from "react-icons/io";
 import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet';
-import { Button } from '@/components/ui/button';
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog"
 import {
   DropdownMenu,
   DropdownMenuCheckboxItem,
@@ -17,6 +24,7 @@ import {
   DropdownMenuShortcut,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
+import { CreateAccountCard } from './CreateAccountCard';
 export default function MainNav({ MainMenuData}) {
   return (
     <>
@@ -29,14 +37,27 @@ export default function MainNav({ MainMenuData}) {
     })}    
     </div>
     <div className={styles.login}>
-    <Link href={"/login"} className={styles.loginLink}>
-      <span><FaUser/></span>
-      <span>התחברות</span>
-      </Link>
+    <Dialog>
+  <DialogTrigger className={styles.loginLink}>
+    <span><FaUser/></span>
+    <span>התחברות</span></DialogTrigger>
+    <DialogContent>
+    <DialogHeader>
+      {/* <DialogTitle>התחברות</DialogTitle> */}
+      <DialogDescription>
+<CreateAccountCard/>
+  
+      </DialogDescription>
+    </DialogHeader>
+  </DialogContent>
+</Dialog>
+    
     </div>
 </nav>
 
     </>
   );
 }
+
+
 

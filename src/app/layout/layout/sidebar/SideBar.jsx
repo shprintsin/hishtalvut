@@ -18,6 +18,7 @@ export default function SideBar({className}) {
     // onClick={() => { setPageName(Name);
     className={styles.link}
     >
+      
      {icon && <div className="pl-4">{icon}</div>}
      {label}
    </Link>
